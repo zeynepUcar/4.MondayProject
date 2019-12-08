@@ -123,7 +123,7 @@ public class Test_Class {
 
         Assert.assertTrue("46069.60".equals(b1.Total_Calculator()));
 
-    }
+    }           
 
 }
 

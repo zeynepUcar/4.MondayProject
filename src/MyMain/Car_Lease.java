@@ -9,34 +9,8 @@ public abstract class Car_Lease {
 
         3  double (TaxRate , MoneyFactor , Interest_amount)
 
-
-
-
      */
 
-    String name;
-
-    String Which_Model;
-
-    int age;
-
-    int salary;
-
-    int Total_Cost;
-
-    int downPayment;
-
-    int termofLease;
-
-    int leaseFee;
-
-    int depraction_amount;
-
-    double TaxRate;
-
-    double MoneyFactor;
-
-    double Interest_amount;
 
     /*
 
@@ -51,33 +25,6 @@ public abstract class Car_Lease {
      */
 
 
-    public Car_Lease(String name, String Which_Model , int age , int salary, int Total_Cost , int downPayment,int termofLease, int leaseFee,double TaxRate , double MoneyFactor){
-
-        this.name = name;
-
-        this.Which_Model = Which_Model;
-
-        this.age = age;
-
-        this.salary =salary;
-
-        this.Total_Cost=Total_Cost;
-
-        this.downPayment=downPayment;
-
-        this.termofLease=termofLease;
-
-        this.leaseFee=leaseFee;
-
-        this.TaxRate=TaxRate;
-
-        this.MoneyFactor = MoneyFactor;
-
-
-        depraction_amount = calculate_Depreciation();
-
-        Interest_amount = calculate_Interest();
-    }
 /*
  Create a method
 
@@ -91,12 +38,7 @@ public abstract class Car_Lease {
 
 
  */
-    public int calculate_Depreciation(){
 
-         int result = (Total_Cost - downPayment) /termofLease;
-
-         return result;
-    }
 
     /*
        calculate_Interest
@@ -107,12 +49,6 @@ public abstract class Car_Lease {
 
      */
 
-    public double calculate_Interest(){
-
-        double result = (Total_Cost + downPayment) * MoneyFactor;
-
-         return result;
-    }
 
     /*
 
@@ -123,19 +59,11 @@ public abstract class Car_Lease {
             depraction_amount + Interest_amount * TaxRate
 
      */
-    public double Taxes(){
-
-        double result = depraction_amount + Interest_amount * TaxRate;
-
-        return result;
-    }
 
     /*
      getter for the (getSalary)
      */
-    public int getSalary() {
-        return salary;
-    }
+
 
 
 }

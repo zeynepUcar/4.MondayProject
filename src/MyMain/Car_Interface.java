@@ -23,17 +23,6 @@ public interface Car_Interface {
 
      */
 
-    int Hyundai_MinIncome = 100000;
-
-    int Toyota_MinIncome = 80000;
-
-    int BMW_MinIncome = 110000;
-
-    int documentation_Fees = 1000;
-
-    public String lease_MonthlyCalculator();
-
-    public boolean is_aligable();
 
 
 }
