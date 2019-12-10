@@ -14,7 +14,7 @@ public class Toyota  {
     /*
              leaseMonthlyCalculator   --->> return type is String
 
-            calculation is --->> CalculateDepreciation + CalculateInterest + Taxes (these methods are coming from the CarLease method)
+            calculation is --->> calculateDepreciation + calculateInterest + taxes (these methods are coming from the carLease method)
 
             hint:  after the calculation result result will be 2.11222211 you need to change result as a 2.11
 
@@ -22,19 +22,19 @@ public class Toyota  {
 
 
      /*
-         IsAligable
+         isAligable
 
-            if the salary is more then ToyotaMinIncome then true else false
+            if the salary is more then toyotaMinIncome then true else false
 
      */
 
 
       /*
-        method name is TotalCalculator
+        method name is totalCalculator
 
         return type is String
 
-        calculation :  (leaseMonthlyCalculator * TermOfLease) + DocumentationFees
+        calculation :  (leaseMonthlyCalculator * termOfLease) + documentationFees
 
         hint:  after the calculation result result will be 2.11222211 you need to change result as a 2.11
 

@@ -5,20 +5,20 @@ public interface CarInterface {
     /*
         Create 4 int variables variables
 
-            HyundaiMinIncome
+            hyundaiMinIncome
 
-            ToyotaMinIncome
+            toyotaMinIncome
 
-            BMWMinIncome
+            bmwMinIncome
 
-            DocumentationFees
+            documentationFees
 
 
             Create two methods -->
 
-             1) return type is String ,  no parameter  ,,, name is ---> LeaseMonthlyCalculator
+             1) return type is String ,  no parameter  ,,, name is ---> leaseMonthlyCalculator
 
-             2) return type is boolean ,  no parameter ,,, name is ---> IsAligable
+             2) return type is boolean ,  no parameter ,,, name is ---> isAligable
 
 
      */

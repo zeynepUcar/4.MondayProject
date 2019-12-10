@@ -6,8 +6,8 @@ public class Hyundai {
 
     /*
 
-      get the connection with CarLease and CarInterface
-        after the connection you should have constructor ,  LeaseMonthlyCalculator method and IsAligable method
+      get the connection with carLease and carInterface
+        after the connection you should have constructor ,  leaseMonthlyCalculator method and isAligable method
 
     */
 
@@ -15,7 +15,7 @@ public class Hyundai {
     /*
              leaseMonthlyCalculator   --->> return type is String
 
-            calculation is --->> CalculateDepreciation + CalculateInterest + Taxes (these methods are coming from the CarLease method)
+            calculation is --->> calculateDepreciation + calculateInterest + taxes (these methods are coming from the carLease method)
 
             hint:  after the calculation result result will be 2.11222211 you need to change result as a 2.11
 
@@ -23,19 +23,19 @@ public class Hyundai {
 
 
      /*
-         IsAligable
+         isAligable
 
-            if the salary is more then HyundaiMinIncome then true else false
+            if the salary is more then hyundaiMinIncome then true else false
 
      */
 
 
       /*
-        method name is TotalCalculator
+        method name is totalCalculator
 
         return type is String
 
-        calculation :  (LeaseMonthlyCalculator * TermOfLease) + DocumentationFees
+        calculation :  (leaseMonthlyCalculator * termOfLease) + documentationFees
 
         Format the calculation result
 

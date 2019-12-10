@@ -3,11 +3,11 @@ package MyMain;
 public abstract class CarLease {
 
     /*
-        Create 2 string   (Name , WhichModel)
+        Create 2 string   (name , whichModel)
 
-        7 int (Age ,Salary , TotalCost , DownPayment , TermOfLease , LeaseFee , DepractionAmount )
+        7 int (age ,salary , totalCost , downPayment , termOfLease , leaseFee , depractionAmount )
 
-        3  double (TaxRate , MoneyFactor , InterestAmount)
+        3  double (taxRate , moneyFactor , interestAmount)
 
      */
 
@@ -16,11 +16,11 @@ public abstract class CarLease {
 
         Create a constructor
 
-        All the variables are should be as a parameter except (DepractionAmount and InterestAmount)
+        All the variables are should be as a parameter except (depractionAmount and interestAmount)
 
-        DepractionAmount = CalculateDepreciation method (you will create this in this class)
+        depractionAmount = calculateDepreciation method (you will create this in this class)
 
-        InterestAmount = CalculateInterest method (you will create this in this class)
+        interestAmount = calculateInterest method (you will create this in this class)
 
      */
 
@@ -28,7 +28,7 @@ public abstract class CarLease {
 /*
  Create a method
 
-        CalculateDepreciation
+        calculateDepreciation
 
         return type should be int
 
@@ -41,11 +41,11 @@ public abstract class CarLease {
 
 
     /*
-       CalculateInterest
+       calculateInterest
 
                 return type should  be double
 
-                calculation is : total cost plus down payment multiolt by money factor
+                calculation is : total cost plus down payment multiply by money factor
 
      */
 
@@ -56,7 +56,8 @@ public abstract class CarLease {
            return type should be double
 
             calculation is :
-            DepractionAmount + InterestAmount * TaxRate
+
+            depractionAmount + interestAmount * taxRate
 
      */
 
