@@ -1,6 +1,6 @@
-package MyMain;
+package MyMa;
 
-public interface CarInterface {
+public interface carInterface {
 
     /*
         Create 4 int variables variables
@@ -22,7 +22,5 @@ public interface CarInterface {
 
 
      */
-
-
 
 }

@@ -1,13 +1,13 @@
-package MyMain;
+package MyMa;
 
 import java.text.DecimalFormat;
 
-public class Toyota  {
-
+public class Hyundai extends carLease implements carInterface {
 
     /*
-    get the connection with CarLease and CarInterface
-        after the connection you should have constructor ,  LeaseMonthlyCalculator method and IsAligable method
+
+      get the connection with carLease and carInterface
+        after the connection you should have constructor ,  leaseMonthlyCalculator method and isAligable method
 
     */
 
@@ -20,11 +20,10 @@ public class Toyota  {
 
     */
 
-
      /*
          isAligable
 
-            if the salary is more then toyotaMinIncome then true else false
+            if the salary is more then hyundaiMinIncome then true else false
 
      */
 
@@ -34,11 +33,12 @@ public class Toyota  {
 
         return type is String
 
-        calculation :  (leaseMonthlyCalculator * termOfLease) + documentationFees
+        calculation :  (leaseMonthlyCalculator * termofLease) + documentationFees
+
+        Format the calculation result
 
         hint:  after the calculation result result will be 2.11222211 you need to change result as a 2.11
 
      */
-
 
 }

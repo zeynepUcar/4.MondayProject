@@ -1,51 +1,42 @@
-package MyMain;
+package MyMa;
 
 import java.text.DecimalFormat;
 
-public class BMW   {
+public class Toyota  extends carLease implements carInterface {
 
-/*
+
+    /*
     get the connection with carLease and carInterface
         after the connection you should have constructor ,  leaseMonthlyCalculator method and isAligable method
 
- */
+    */
 
     /*
-             leaseMonthlyCalculator   --->> return type is String
+             lease_MonthlyCalculator   --->> return type is String
 
-            calculation is --->> calculateDepreciation + calculateInterest + taxes (these methods are coming from the carLease method)
+            calculation is --->> calculateDepreciation + calculateInterest + Taxes (these methods are coming from the carLease method)
 
             hint:  after the calculation result result will be 2.11222211 you need to change result as a 2.11
 
     */
 
+     /*
+         isAligable
 
-
-    /*
-     isAligable
-
-        if the salary is more then bmwMinIncome then true else false
+            if the salary is more then Toyota_MinIncome then true else false
 
      */
 
 
-
-    /*
+      /*
         method name is totalCalculator
 
         return type is String
 
-        calculation :  (leaseMonthlyCalculator * termOfLease) + documentationFees
-
-        you need to change leaseMonthCalculator to double
+        calculation :  (leaseMonthlyCalculator * termofLease) + documentationFees
 
         hint:  after the calculation result result will be 2.11222211 you need to change result as a 2.11
 
-
      */
-
-
-
-
 
 }

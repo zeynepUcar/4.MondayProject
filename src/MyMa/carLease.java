@@ -1,11 +1,11 @@
-package MyMain;
+package MyMa;
 
-public abstract class CarLease {
+public abstract class carLease {
 
     /*
         Create 2 string   (name , whichModel)
 
-        7 int (age ,salary , totalCost , downPayment , termOfLease , leaseFee , depractionAmount )
+        7 int (age ,salary , totalCost , downPayment , termofLease , leaseFee , depractionAmount )
 
         3  double (taxRate , moneyFactor , interestAmount)
 
@@ -36,9 +36,7 @@ public abstract class CarLease {
 
         total cost minus down payment divide by term of lease
 
-
  */
-
 
     /*
        calculateInterest
@@ -49,14 +47,12 @@ public abstract class CarLease {
 
      */
 
-
     /*
 
-        Taxes
+        taxes
            return type should be double
 
             calculation is :
-
             depractionAmount + interestAmount * taxRate
 
      */
@@ -64,7 +60,5 @@ public abstract class CarLease {
     /*
      getter for the (getSalary)
      */
-
-
 
 }
