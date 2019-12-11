@@ -5,13 +5,13 @@ public interface carInterface {
     /*
         Create 4 int variables variables
 
-            hyundaiMinIncome
+            hyundaiMinIncome with value 100000
 
-            toyotaMinIncome
+            toyotaMinIncome with value 80000
 
-            bmwMinIncome
+            bmwMinIncome with value 110000
 
-            documentationFees
+            documentationFees with value 1000
 
 
             Create two methods -->
