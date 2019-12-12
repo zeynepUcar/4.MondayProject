@@ -72,8 +72,10 @@ public class testClass {
         Toyota b1 = new Toyota( "Ali", "Toyota", 35, 80000, 25000, 5000, 36, 2000, 0.09, 0.0031 );
 
         Assert.assertEquals( "1211.37", b1.leaseMonthlyCalculator() );
+        System.out.println(b1.leaseMonthlyCalculator());
 
         Assert.assertFalse( b1.isAligable() );
+        System.out.println(b1.isAligable());
 
         Assert.assertEquals( "44609.32", b1.totalCalculator() );
 
@@ -106,8 +108,9 @@ public class testClass {
     @Test
     public void Hyundai3() {
         Hyundai b1 = new Hyundai( "Someone", "Hyundai", 42, 100000, 25000, 5000, 48, 3000, 0.15, 0.0031 );
-
+        System.out.println(b1.leaseMonthlyCalculator());
         Assert.assertEquals( "938.95", b1.leaseMonthlyCalculator() );
+        System.out.println(b1.isAligable());
 
         Assert.assertFalse( b1.isAligable() );
 
